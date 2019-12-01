@@ -1,0 +1,141 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SUPPLIER</title>
+    <link rel="stylesheet" href="../assets/css/student.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap");
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+
+  <body>
+
+
+    <header>
+    <div class="w3-sidebar w3-dark-grey w3-bar-block" style="width:25%">
+        <h3 class="w3-bar-item">Menu</h3>
+        <a href="/" class="w3-bar-item w3-button">Home</a>
+
+        <a href="/insert/customers" class="w3-bar-item w3-button">Customer<a>
+        <a href="/insert/supplier" class="w3-bar-item w3-button">supplier</a>
+        <a href="/insert/medicines" class="w3-bar-item w3-button">Medicine</a>
+        <a href="/insert/salesman" class="w3-bar-item w3-button">Salesman</a>
+        <a href="/insert/payment" class="w3-bar-item w3-button">payment</a>
+        
+      </div>
+      </header>
+
+
+      <div class="container">
+      <div class="col-md-6 mx-auto text-center">
+        <div class="header-title">
+          <h1 class="wv-heading--title">
+            SUPPLIER DETAILS
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mx-auto">
+          <div class="myform form ">
+            <form action="/insert/supplier" method="post">
+              <div class="form-group">
+                <label
+                  for="example-text-input"
+                  class="col-2 col-form-label label"
+                  >SUPPLIER_ID:</label
+                >
+                <input
+                  type="text"
+                  name="supplier_id"
+                  class="form-control my-input"
+                  placeholder="Id"
+                />
+
+                <div class="form-group">
+                  <label
+                    for="example-text-input"
+                    class="col-2 col-form-label label"
+                    >SUPPLIER_NAME:</label
+                  >
+                  <input
+                    type="text"
+                    name="supplier_name"
+                    class="form-control my-input"
+                    placeholder="SUPPLIER_NAME"
+                  />
+              </div>
+              <div class="form-group">
+                <label
+                  for="example-text-input"
+                  class="col-2 col-form-label label"
+                  >Email:</label
+                >
+                <input
+                  type="text"
+                  name="email"
+                  class="form-control my-input"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group">
+                <label
+                  for="example-text-input"
+                  class="col-2 col-form-label label">MOBILE_NO.</label
+                >
+                <input
+                  type="text"
+                  name="mobile_no"
+                  class="form-control my-input"
+                  placeholder="contact no"
+                />
+              </div>
+              </div>
+              <div class="form-group row">
+                <label
+                  for="example-text-input"
+                  class="col-2 col-form-label"
+                ></label>
+                <div class="col-10">
+                  <input
+                    id="inputClass"
+                    class=" form-control  btn-outline-success "
+                    name=""
+                    href=""
+                    type="submit"
+                    value="Submit"
+                  />
+                </div>
+              </div>
+              <hr size="6" width="90%" align="center" color="green" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+      integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+      integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+      integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
